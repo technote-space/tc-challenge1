@@ -1,0 +1,1 @@
+(1..100).each {|i| puts(if 0 == i % 15; "FizzBuzz" elsif 0 == i % 3; "Fizz" elsif 0 == i % 5; "Buzz" else i end)}
