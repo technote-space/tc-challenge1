@@ -1,0 +1,5 @@
+func main()
+	for i(1, 100)
+		do cui@print((i % 15 = 0 ?("FizzBuzz", i % 3 = 0 ?("Fizz", i % 5 = 0 ?("Buzz", (i).toStr())))) ~ "\n")
+	end for
+end func
